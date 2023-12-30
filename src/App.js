@@ -7,7 +7,7 @@ import SearchItem from './SearchItem';
 import apiRequest from './apiRequest';
 
 function App() {
-  const API_URL=  'http://localhost:3500/items';
+  const API_URL= 'https://fakebackendtodo-b22208321fa0.herokuapp.com/items';
 
   const [items, setItems]=useState([]); 
   const [newItem, setNewItem]=useState(' ')
