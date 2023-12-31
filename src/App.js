@@ -45,7 +45,7 @@ const addItem=async (item)=> {
   const postOptions={
     method:'POST',
     headers:{
-      'Content-type':'aplication/json'
+      'Content-type':'application/json'
     },
     body: JSON.stringify(myNewItem)
   }
